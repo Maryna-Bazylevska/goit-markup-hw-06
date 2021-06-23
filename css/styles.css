@@ -800,7 +800,6 @@ a {
 .form-footer {
   display: flex;
   justify-content: start;
-  padding-top: 40px;
   padding-right: 39px;
   width: 528px;
 }

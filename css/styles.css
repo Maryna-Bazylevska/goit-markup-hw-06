@@ -18,6 +18,7 @@
   --border-input: rgba(33, 33, 33, 0.2);
   --color-placecholder: rgba(117, 117, 117, 0.5);
   --background-sent-button: #188ce8;
+  --background-color-footer:#2F303A;
 }
 
 /* root */
@@ -537,6 +538,13 @@ a {
 .text-projects {
   padding-bottom: 0px;
   margin-bottom: 0;
+  padding-bottom: 20px;
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
 }
 .projects-li h3 {
   font-family: Roboto;
@@ -548,15 +556,7 @@ a {
   margin-top: 20px;
   margin-bottom: 4px;
 }
-.text-projects {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.03em;
-  padding-bottom: 20px;
-}
+
 .projects-li:nth-child(3n + 1) {
   margin-left: -10px;
 }
@@ -814,13 +814,20 @@ label {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: black;
+  color: var(--input-color);
   width: 358px;
   height: 50px;
   border: 1px solid var(--background-label);
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: var(--background-color-footer);
+  border-radius: 4px;
+}
+.input-footer:focus{
+  border-color: var(--accent-kolor);
+  outline: none;
 }
 .deskription-button {
   display: flex;
@@ -828,6 +835,8 @@ label {
   justify-content: center;
   width: 200px;
   height: 50px;
+  padding-left: 29px;
+  padding-right: 28px;
   border-radius: 4px;
   background-color: var(--background-footer-button);
   border: 0px;

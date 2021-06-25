@@ -19,6 +19,7 @@
   --color-placecholder: rgba(117, 117, 117, 0.5);
   --background-sent-button: #188ce8;
   --background-color-footer:#2F303A;
+  --buuton-deskrption-color:#2196F3;
 }
 
 /* root */
@@ -838,7 +839,7 @@ label {
   padding-left: 29px;
   padding-right: 28px;
   border-radius: 4px;
-  background-color: var(--background-footer-button);
+  background-color: var(--buuton-deskrption-color);
   border: 0px;
   font-family: Roboto;
   font-style: normal;

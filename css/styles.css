@@ -1075,6 +1075,10 @@ label {
   background-color: var(--accent-kolor);
   border: 1px solid var(--accent-kolor);
 }
+.agreement-conditions{
+  text-decoration: underline;
+  color:var(--accent-kolor)
+}
 .sent-button {
   width: 200px;
   height: 50px;
